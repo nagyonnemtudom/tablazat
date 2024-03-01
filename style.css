@@ -4,6 +4,8 @@ body{
      font-weight: 400;
      font-style: normal;
      font-size: 25px;
+     margin: 0;
+     padding: 0;
 }
 .table69{
     width: 80%;
@@ -16,6 +18,7 @@ body{
 .table69 td, th{
     border: 1px solid gray;
     padding: 6px;
+    border-bottom: 1px solid gray;
 }
 .table69 thead{
     background-color: beige;
@@ -25,5 +28,27 @@ body{
     color: whitesmoke;
     text-align: center;
 }
-.tablle69 tbody>re
-
+.tablle69 tbody>tr>td:last-child{
+    text-align: right;
+}
+.table69 tbody tr:hover{
+    cursor: crosshair;
+   background-color: orange;
+   color: whitesmoke;
+   font-weight: bold;
+}
+.table69 tbody td{
+    position: relative;
+    overflow: hidden;
+}
+#container{
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    height: 100vh;
+    padding: 15px;
+    width: 60%;
+    margin:  0 auto;
+}
+@media screen {
+    
+}
